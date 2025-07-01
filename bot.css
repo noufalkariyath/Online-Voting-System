@@ -1,0 +1,50 @@
+
+a {
+
+    display: flex;
+
+    justify-content: center; /* Center the button container */
+
+    align-items: center; /* Center vertically */
+
+    height: 100vh; /* Full viewport height */
+
+    margin: 0; /* Remove default margin */
+
+}
+
+.button-container {
+
+    display: flex; /* Use Flexbox for layout */
+
+    gap: 10px; /* Space between buttons */
+
+}
+
+
+.btn {
+
+    padding: 10px 20px; /* Button padding */
+
+    font-size: 16px; /* Button font size */
+
+    cursor: pointer; /* Pointer cursor on hover */
+
+    border: none; /* Remove default border */
+
+    border-radius: 5px; /* Rounded corners */
+
+    background-color: #007BFF; /* Button background color */
+
+    color: white; /* Button text color */
+
+    transition: background-color 0.3s; /* Smooth background color transition */
+
+}
+
+
+.btn:hover {
+
+    background-color: #0056b3; /* Darker background on hover */
+
+}
